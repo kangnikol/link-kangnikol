@@ -31,16 +31,16 @@ const App = () => {
           <h1 className="font-bold text-sm lg:text-lg">
             Hi! Here are several links for you to check out.
           </h1>
-          {listLink.map((i, e) => (
+          {listLink.map((e, i) => (
             <a
-              href={i.link}
+              href={e.link}
               target="_blank"
               rel="noreferrer"
-              key={e}
+              key={i}
               className="text-text"
             >
               <div className="items-center transition ease-in-out duration-300 px-4 py-2 rounded-md bg-yellow hover:bg-transparent border-yellow border text-base hover:text-text text-sm lg:text-md font-bold flex justify-between">
-                {i.name}
+                {e.name}
                 <FontAwesomeIcon icon={faArrowUpRightFromSquare} />
               </div>
             </a>
