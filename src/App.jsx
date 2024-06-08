@@ -21,11 +21,7 @@ const App = () => {
     <div className="flex justify-center items-center h-screen w-screen">
       <div className="p-4 rounded-md bg-surface0 flex flex-row gap-4 text-text w-2/5 drop-shadow-lg">
         <div className="flex flex-col items-center gap-4 pr-4 border-r border-text w-1/2">
-          <img
-            src="https://media.discordapp.net/attachments/917983285370572821/1243588288871272621/photo_portfolio.webp?ex=66652318&is=6663d198&hm=d4629a15475ac69e075759e58f818287ad1a4525986c64bcf5df806d1a720a24&=&format=webp&width=597&height=661"
-            alt="Nicholas's Photo"
-            className="w-24"
-          />
+          <img src="/myphoto.webp" alt="Nicholas's Photo" className="w-24" />
           <h1 className="border-b border-text font-bold">
             Nicholas Alvi Saputra
           </h1>
