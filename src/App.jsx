@@ -20,7 +20,7 @@ const App = () => {
   return (
     <div className="flex justify-center items-center h-screen w-screen p-4">
       <div className="p-4 rounded-md bg-surface0 flex flex-row gap-4 text-text lg:w-2/5 drop-shadow-lg">
-        <div className="flex flex-col items-center gap-4 pr-4 border-r justify-center border-text w-full lg:w-3/4">
+        <div className="flex flex-col items-center gap-4 pr-4 justify-center border-text w-full lg:w-3/4">
           <img src="/myphoto.webp" alt="Nicholas's Photo" className="w-24" />
           <h1 className="border-b border-text font-bold text-sm lg:text-lg">
             Nicholas Alvi Saputra
